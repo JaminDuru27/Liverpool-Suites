@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: lemon;
+  src: url('../public/lemon_milk/LEMONMILK-Medium.otf');
+}
+@font-face {
+  font-family: darling;
+  src: url('../public/darling_3/Darling.ttf');
+}
+.darling{
+  font-family: darling;
+}
+.stroke{
+  -webkit-text-stroke: 1px #ffffffa5;
+  transition: .6s ease;
+}
+.stroke:hover{
+  color: #ffffffa5;
+}
+.leaves{
+  background-image: url('/frame.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: .2rem;
+
+}
+
+
+*{
+  font-family: lemon;
+}
