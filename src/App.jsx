@@ -10,7 +10,7 @@ function App() {
         
         <div className="logo text-[.7rem] ">Liverpool Suites</div>
         <img src="menu.png" className='lg:hidden  w-5 h-5 cursor-pointer' alt="" />
-        <div className="links flex hidden lg:flex justify-between text-[.4rem] items-center gap-10">
+        <div className="links flex hidden md:text-[.7rem] lg:flex justify-between text-[.4rem] items-center gap-10">
           <a className='cursor-pointer ' href="">About</a>
           <a className='cursor-pointer' href="">Contact</a>
           <a className='cursor-pointer' href="">Events</a>
@@ -73,20 +73,20 @@ function App() {
 
       <h1 className='w-full text-[2rem] md:text-[4rem] text-center text-[#fff] my-16 unstroke'>Navigate</h1>
 
-      <div className="nav2  w-[80%] sm:flex-col sm:flex-wrap-reverse pb-5  gap-5 items-center  relative left-1/2 flex items-center justify-between translate-x-[-50%] ">
-        <div className="shrink-0 text-[0.8rem] md:text-[1.4rem] events w-[7rem] h-[7rem] md:w-[10rem] md:h-[10rem] lg:w-[10rem] lg:h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
+      <div className="nav2  w-[80%]  sm:flex-wrap-reverse pb-5  gap-5 items-center  relative left-1/2 flex items-center justify-between translate-x-[-50%] ">
+        <div className="shrink-0 text-[0.8rem] md:text-[1.4rem] events w-[4rem] h-[4rem] sm:w-[7rem] sm:h-[7rem] lg:w-[10rem] lg:h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
           events
           <img className='z-[-2] absolute top-1/2 rounded-[50%]  left-1/2 w-[60%] h-[60%] translate-[-50%]' src="hall.jpg" alt="" />
         </div>
-        <div className="shrink-0 text-[0.8rem] md:text-[1.4rem] events w-[7rem] h-[7rem] md:w-[10rem] md:h-[10rem] lg:w-[10rem] lg:h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
+        <div className="shrink-0 text-[0.8rem] md:text-[1.4rem] events w-[4rem] h-[4rem] sm:w-[7rem] sm:h-[7rem] lg:w-[10rem] lg:h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
           menu
           <img className='z-[-2] absolute top-1/2 rounded-[50%]  left-1/2 w-[60%] h-[60%] translate-[-50%]' src="hall.jpg" alt="" />
         </div>
-        <div className="shrink-0 text-[0.8rem] md:text-[1.4rem] events w-[7rem] h-[7rem] md:w-[10rem] md:h-[10rem] lg:w-[10rem] lg:h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
+        <div className="shrink-0 text-[0.8rem] md:text-[1.4rem] events w-[4rem] h-[4rem] sm:w-[7rem] sm:h-[7rem] lg:w-[10rem] lg:h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
           hotels
           <img className='z-[-2] absolute top-1/2 rounded-[50%]  left-1/2 w-[60%] h-[60%] translate-[-50%]' src="hall.jpg" alt="" />
         </div>
-        <div className="shrink-0 text-[0.8rem] md:text-[1.4rem] events w-[7rem] h-[7rem] md:w-[10rem] md:h-[10rem] lg:w-[10rem] lg:h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
+        <div className="shrink-0 text-[0.8rem] md:text-[1.4rem] events w-[4rem] h-[4rem] sm:w-[7rem] sm:h-[7rem] lg:w-[10rem] lg:h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
           book
           <img className='z-[-2] absolute top-1/2 rounded-[50%]  left-1/2 w-[60%] h-[60%] translate-[-50%]' src="hall.jpg" alt="" />
         </div>
@@ -116,7 +116,7 @@ function App() {
         <div className="w-full flex justify-center items-center"><img src="floral-design.png" className='w-5 h-5 opacity-[0.4]' alt="" /></div>
         <h1 className="my-5 text-[0.7rem]">Available for $17,000 for rent.</h1>
         
-        <div className="suite mb-10 flex h-[20rem] items-center justify-center gap-5 w-[80%]">
+        <div className="suite mb-10 flex h-[20rem] md:h-[35rem] items-center justify-center gap-5 w-[80%]">
           
           <motion.div 
           className=" relative left w-[70%] h-[100%] overflow-hidden rounded-[.5rem] bg-white/10"
@@ -142,20 +142,22 @@ function App() {
 
           </motion.div>
           
-          <div className="right w-[30%]  h-[100%] flex flex-col items-center  gap-[.5rem] justify-start overflow-hidden rounded-[.5rem]  overflow-y-auto">
-            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
+          <div className="right w-[30%]  h-[100%]  flex flex-col items-center  gap-[.5rem] justify-start overflow-hidden rounded-[.5rem]  overflow-y-auto">
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem] md:h-[10rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem] md:h-[10rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem] md:h-[10rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem] md:h-[10rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem] md:h-[10rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem] md:h-[10rem]  rounded-[.4rem]" />
           </div>
         </div>
         <h1 className="text-[2rem] lg:text-[4rem] text-amber-700 ">Lavish Suites</h1>
         <div className="w-full flex justify-center items-center"><img src="floral-design.png" className='w-5 h-5 opacity-[0.4]' alt="" /></div>
         <h1 className="my-5 text-[0.7rem]">Available for $17,000 for rent.</h1>
         
-        <div className="suite mb-10 flex h-[20rem] items-center justify-center gap-5 w-[80%]">
+        
+
+        <div className="suite mb-10 flex h-[20rem] md:h-[35rem] items-center justify-center gap-5 w-[80%]">
           
           <motion.div 
           className=" relative left w-[70%] h-[100%] overflow-hidden rounded-[.5rem] bg-white/10"
@@ -181,15 +183,18 @@ function App() {
 
           </motion.div>
           
-          <div className="right w-[30%]  h-[100%] flex flex-col items-center  gap-[.5rem] justify-start overflow-hidden rounded-[.5rem]  overflow-y-auto">
-            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
+          <div className="right w-[30%]  h-[100%]  flex flex-col items-center  gap-[.5rem] justify-start overflow-hidden rounded-[.5rem]  overflow-y-auto">
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem] md:h-[10rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem] md:h-[10rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem] md:h-[10rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem] md:h-[10rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem] md:h-[10rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem] md:h-[10rem]  rounded-[.4rem]" />
           </div>
         </div>
+
+
+
         <div className="w-full mt-5 flex justify-center items-center"><img src="floral-design.png" className='w-5 h-5 opacity-[0.4]' alt="" /></div>
 
         <div className="my-6 w-[80%] text-[.7rem]">
