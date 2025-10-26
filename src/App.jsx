@@ -6,25 +6,26 @@ function App() {
     <>
     <div className="body w-full h-full bg-[#1a0c0a]">
 
-      <nav className='fixed z-50  top-2 left-1/2 w-[80%] translate-x-[-50%] flex  justify-between items-center py-2 px-8 backdrop-blur-2xl text-[#ffffff8b] rounded-[9rem]'>
+      <nav className='fixed z-50 top-2 left-1/2 w-[80%] translate-x-[-50%] flex  justify-between items-center py-2 px-8 backdrop-blur-2xl text-[#ffffff8b] rounded-[9rem]'>
         
-        <div className="logo">Liverpool Suites</div>
-        <div className="links flex justify-between items-center gap-10">
-          <a className='cursor-pointer' href="">About</a>
+        <div className="logo text-[.7rem] ">Liverpool Suites</div>
+        <img src="menu.png" className='lg:hidden  w-5 h-5 cursor-pointer' alt="" />
+        <div className="links flex hidden lg:flex justify-between text-[.4rem] items-center gap-10">
+          <a className='cursor-pointer ' href="">About</a>
           <a className='cursor-pointer' href="">Contact</a>
           <a className='cursor-pointer' href="">Events</a>
           <a className='cursor-pointer  ' href="">Blog</a>
         </div>
-        <div className="wrap flex items-center gap-2 justify-between">
+        <div className="wrap flex items-center hidden lg:flex gap-0.5 justify-between">
           <button style={{
             backgroundImage: `linear-gradient(95deg, #ffffff26 8%, transparent 70%)`
-          }} className=' text-[.6rem] border-l-1 py-1.5 px-2 cursor-pointer rounded-[5rem]'>USD</button>
+          }} className=' text-[.5rem] border-l-1 py-1.5 px-2.5 cursor-pointer rounded-[5rem]'>USD</button>
           <button style={{
             backgroundImage: `linear-gradient(95deg, #ffffff26 8%, transparent 70%)`
-          }} className=' text-[.6rem] border-l-1 py-1.5 px-2 cursor-pointer rounded-[5rem]'>USA</button>
+          }} className=' text-[.5rem] border-l-1 py-1.5 px-2.5 cursor-pointer rounded-[5rem]'>USA</button>
           <button style={{
             backgroundImage: `linear-gradient(95deg, #ffffff26 8%, transparent 70%)`
-          }} className=' text-[.6rem] border-l-1 py-1.5 px-2 cursor-pointer rounded-[5rem]'>Bookings</button>
+          }} className=' text-[.5rem] border-l-1 py-1.5 px-2.5 cursor-pointer rounded-[5rem]'>Bookings</button>
         </div>
         </nav>
     
@@ -70,22 +71,22 @@ function App() {
       </div>
       <div className="search sticky top-[2rem]  rounded-r-4xl overflow-hidden  bg-white/10 backdrop-blur-2xl  w-[4rem] h-[2rem]"></div>
 
-      <h1 className='w-full text-[5rem] text-center text-[#fff] my-16 unstroke'>Navigate</h1>
+      <h1 className='w-full text-[2rem] md:text-[4rem] text-center text-[#fff] my-16 unstroke'>Navigate</h1>
 
-      <div className="nav2  w-[80%] gap-5 flex-wrap relative left-1/2 flex items-center justify-between translate-x-[-50%] ">
-        <div className="shrink-0 text-[1.2rem] events w-[10rem] h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
+      <div className="nav2  w-[80%] sm:flex-col sm:flex-wrap-reverse pb-5  gap-5 items-center  relative left-1/2 flex items-center justify-between translate-x-[-50%] ">
+        <div className="shrink-0 text-[0.8rem] md:text-[1.4rem] events w-[7rem] h-[7rem] md:w-[10rem] md:h-[10rem] lg:w-[10rem] lg:h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
           events
           <img className='z-[-2] absolute top-1/2 rounded-[50%]  left-1/2 w-[60%] h-[60%] translate-[-50%]' src="hall.jpg" alt="" />
         </div>
-        <div className="shrink-0 text-[1.2rem] events w-[10rem] h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
+        <div className="shrink-0 text-[0.8rem] md:text-[1.4rem] events w-[7rem] h-[7rem] md:w-[10rem] md:h-[10rem] lg:w-[10rem] lg:h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
           menu
           <img className='z-[-2] absolute top-1/2 rounded-[50%]  left-1/2 w-[60%] h-[60%] translate-[-50%]' src="hall.jpg" alt="" />
         </div>
-        <div className="shrink-0 text-[1.2rem] events w-[10rem] h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
+        <div className="shrink-0 text-[0.8rem] md:text-[1.4rem] events w-[7rem] h-[7rem] md:w-[10rem] md:h-[10rem] lg:w-[10rem] lg:h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
           hotels
           <img className='z-[-2] absolute top-1/2 rounded-[50%]  left-1/2 w-[60%] h-[60%] translate-[-50%]' src="hall.jpg" alt="" />
         </div>
-        <div className="shrink-0 text-[1.2rem] events w-[10rem] h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
+        <div className="shrink-0 text-[0.8rem] md:text-[1.4rem] events w-[7rem] h-[7rem] md:w-[10rem] md:h-[10rem] lg:w-[10rem] lg:h-[10rem] stroke  relative flex items-center justify-center leaves  border-b-2 rounded  border-[#ffffff6d]">
           book
           <img className='z-[-2] absolute top-1/2 rounded-[50%]  left-1/2 w-[60%] h-[60%] translate-[-50%]' src="hall.jpg" alt="" />
         </div>
@@ -94,31 +95,31 @@ function App() {
         
       </section>
       <section className=' flex justify-center items-center w-full py-16'>
-        <div className="w-[80%] h-full flex items-center justify-between text-[#fff]">
+        <div className="w-[80%] h-full flex lg:flex-row flex-col items-start gap-2 py-16 justify-between text-[#fff]">
           <div className="right ">
-            <div className="text-[2.5rem] my-6">2,000,000,000+ </div>
+            <div className="text-[2rem] md-text-[4rem] my-6">2,000,000,000+ </div>
             <div className="text-[.7rem] text-[#ffffff6f]">users yearly. rated all over the world this suite is the best at 5 start reviews</div>
           </div>
-          <div className="left w-1/2 h-full flex items-center justify-between gap-2">
+          <div className="left w-1/2 h-full  flex mt-6 items-center justify-between gap-2">
             <img src="hall.jpg" 
             alt="" className=" w-[12rem] h-[15rem] rounded-[.5rem]" />
             <img src="hall.jpg" 
-            alt="" className=" w-[8rem] h-[8rem] rounded-[.5rem]" />
+            alt="" className=" w-[7rem] h-[7rem] rounded-[.5rem]" />
             <img src="hall.jpg" 
-            alt="" className=" w-[5rem] h-[5rem] rounded-[.5rem]" />
+            alt="" className=" w-[4rem] h-[4rem] rounded-[.5rem]" />
           </div>
         </div>
       </section>
       <section className='flex items-center justify-center flex-col py-20 text-[#ffffff6f]'>
-        <h1 className='text-[5rem] py-5 border-double border-b-2 mb-10'>Brilliant Suites</h1>
-        <h1 className="text-[5rem] text-amber-700">Lavish Suites</h1>
+        <h1 className='text-[2rem] lg:text-[4rem] py-5 border-double border-b-2 mb-10'>Brilliant Suites</h1>
+        <h1 className="text-[2rem]  lg:text-[4rem] text-amber-700 ">Lavish Suites</h1>
         <div className="w-full flex justify-center items-center"><img src="floral-design.png" className='w-5 h-5 opacity-[0.4]' alt="" /></div>
-        <h1 className="my-5">Available for $17,000 for rent.</h1>
+        <h1 className="my-5 text-[0.7rem]">Available for $17,000 for rent.</h1>
         
-        <div className="suite mb-10 flex items-center justify-center gap-5 w-[80%]">
+        <div className="suite mb-10 flex h-[20rem] items-center justify-center gap-5 w-[80%]">
           
           <motion.div 
-          className=" relative left w-[70%] h-[80vh] overflow-hidden rounded-[.5rem] bg-white/10"
+          className=" relative left w-[70%] h-[100%] overflow-hidden rounded-[.5rem] bg-white/10"
           whileHover='hover'
           initial = 'initial'
 
@@ -128,36 +129,36 @@ function App() {
             variants={{initial:{y:200, opacity:1},  hover:{y:0, opacity:1}}}
             transition={{type:'spring', stiffness: 300, damping: 20}}
             >
-              <div className="absolute top-2 right-2 px-2 py-1 bg-[#f5bc00]/10 rounded-l-2xl">Recommended</div>
-              <div className="text-3xl py-2">Room 309</div>
-              <div className="my-2">Excellent </div>
-              <div className="my-2 flex w-full justify-between items-center">
+              <div className="text-[.5rem] absolute top-2 right-2 px-2 py-1 bg-[#f5bc00]/10 rounded-l-2xl">Recommended</div>
+              <div className="text-1xl py-2">Room 309</div>
+              <div className="my-2 text-[.7rem]">Excellent </div>
+              <div className="my-2 text-[.7rem] flex w-full justify-between items-center">
                 <div className="">R3003 <span className='text-[.8rem]'>per night</span></div>
-                <div className="">breakfasy served</div>
+                <div className="">breakfast served</div>
               </div>
-              <button className="px-4 py-2 rounded-[.3rem] border-4 cursor-pointer border-[#000000a2]">check out deal</button>
+              <button className="px-2 py-1 text-[.7rem] rounded-[.3rem] border-2 cursor-pointer border-[#000000a2]">check out deal</button>
             </motion.div>
             <img src="hall.jpg" alt="" className="w-full h-full" />
 
           </motion.div>
           
-          <div className="right w-[30%]  h-[80vh] flex flex-col items-center  gap-[.5rem] justify-start overflow-hidden rounded-[.5rem]  overflow-y-auto">
-            <img src="hall.jpg" alt="" className="w-[80%] h-[10rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] h-[10rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] h-[10rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] h-[10rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] h-[10rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] h-[10rem]  rounded-[.4rem]" />
+          <div className="right w-[30%]  h-[100%] flex flex-col items-center  gap-[.5rem] justify-start overflow-hidden rounded-[.5rem]  overflow-y-auto">
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
           </div>
         </div>
-        <h1 className="text-[5rem] text-amber-700">Lavish Suites</h1>
+        <h1 className="text-[2rem] lg:text-[4rem] text-amber-700 ">Lavish Suites</h1>
         <div className="w-full flex justify-center items-center"><img src="floral-design.png" className='w-5 h-5 opacity-[0.4]' alt="" /></div>
-        <h1 className="my-5">Available for $17,000 for rent.</h1>
+        <h1 className="my-5 text-[0.7rem]">Available for $17,000 for rent.</h1>
         
-        <div className="suite flex items-center justify-center gap-5 w-[80%]">
+        <div className="suite mb-10 flex h-[20rem] items-center justify-center gap-5 w-[80%]">
           
           <motion.div 
-          className=" relative left w-[70%] h-[80vh] overflow-hidden rounded-[.5rem] bg-white/10"
+          className=" relative left w-[70%] h-[100%] overflow-hidden rounded-[.5rem] bg-white/10"
           whileHover='hover'
           initial = 'initial'
 
@@ -167,31 +168,31 @@ function App() {
             variants={{initial:{y:200, opacity:1},  hover:{y:0, opacity:1}}}
             transition={{type:'spring', stiffness: 300, damping: 20}}
             >
-              <div className="absolute top-2 right-2 px-2 py-1 bg-[#f5bc00]/10 rounded-l-2xl">Recommended</div>
-              <div className="text-3xl py-2">Room 309</div>
-              <div className="my-2">Excellent </div>
-              <div className="my-2 flex w-full justify-between items-center">
+              <div className="text-[.5rem] absolute top-2 right-2 px-2 py-1 bg-[#f5bc00]/10 rounded-l-2xl">Recommended</div>
+              <div className="text-1xl py-2">Room 309</div>
+              <div className="my-2 text-[.7rem]">Excellent </div>
+              <div className="my-2 text-[.7rem] flex w-full justify-between items-center">
                 <div className="">R3003 <span className='text-[.8rem]'>per night</span></div>
-                <div className="">breakfasy served</div>
+                <div className="">breakfast served</div>
               </div>
-              <button className="px-4 py-2 rounded-[.3rem] border-4 cursor-pointer border-[#000000a2]">check out deal</button>
+              <button className="px-2 py-1 text-[.7rem] rounded-[.3rem] border-2 cursor-pointer border-[#000000a2]">check out deal</button>
             </motion.div>
-            <img src="luxury-bedroom-hotel.jpg" alt="" className="w-full h-full" />
+            <img src="hall.jpg" alt="" className="w-full h-full" />
 
           </motion.div>
           
-          <div className="right w-[30%]  h-[80vh] flex flex-col items-center  gap-[.5rem] justify-start overflow-hidden rounded-[.5rem]  overflow-y-auto">
-            <img src="room.jpg" alt="" className="w-[80%] h-[10rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] h-[10rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] h-[10rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] h-[10rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] h-[10rem]  rounded-[.4rem]" />
-            <img src="hall.jpg" alt="" className="w-[80%] h-[10rem]  rounded-[.4rem]" />
+          <div className="right w-[30%]  h-[100%] flex flex-col items-center  gap-[.5rem] justify-start overflow-hidden rounded-[.5rem]  overflow-y-auto">
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
+            <img src="hall.jpg" alt="" className="w-[80%] shrink-0 h-[5rem]  rounded-[.4rem]" />
           </div>
-        </div>z
+        </div>
         <div className="w-full mt-5 flex justify-center items-center"><img src="floral-design.png" className='w-5 h-5 opacity-[0.4]' alt="" /></div>
 
-        <div className="my-6 w-[80%]">
+        <div className="my-6 w-[80%] text-[.7rem]">
           ookpoqkop poq oqk qpk oqs pqoi sqj sijpskpq p qskqpkp  <q>cmowoe wokeo</q>
           ookpoqkop poq oqk qpk oqs pqoi sqj sijpskpq p qskqpkp  <q>cmowoe wokeo</q>
           ookpoqkop poq oqk qpk oqs pqoi sqj sijpskpq p qskqpkp  <q>cmowoe wokeo</q>
@@ -258,7 +259,7 @@ function App() {
               <div className="item">privacy</div>
             </div>
           </div>
-          <div className="right relative w-[50%] mb-5 text-[#ffffff90]">
+          <div className="right relative w-[50%] mb-5 text-[.4rem] text-[#ffffff90]">
             <div className="head">Live With Style and High Expectation</div>
             <div className="addr">jijqojo N.V., 9i9i29 dokdpkpdkpd, Liverpool. Copyright 2025 trivago | All rights reserved.</div>
           </div>
