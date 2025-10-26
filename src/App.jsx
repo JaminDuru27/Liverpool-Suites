@@ -232,8 +232,38 @@ function App() {
       
       <div className="w-full mt-5 flex justify-center items-center"><img src="floral-design.png" className='w-5 h-5 opacity-[0.4]' alt="" /></div>
       
-
-      <footer></footer>
+      <footer style={{
+        backgroundImage: `linear-gradient(0deg, black 80%, transparent)`,
+      }} className='w-full py-10 px-4 bg-[#000] text-white'>
+        <div className="flex justify-between items-center w-full mb-5">
+          <div className="logo">Logo</div>
+          <div className="sm flex items-center justify-between gap-0">
+            <img src='facebook-app-symbol.png' className="text-[.7rem] border-4 border-[#000] rounded-[50%] w-10 h-10 p-2 flex bg-white  items-center justify-center" />
+            <img src='instagram (1).png' className="text-[.7rem] border-4 translate-x-[-10px] border-[#000] rounded-[50%] w-10 h-10 p-2 flex bg-white  items-center justify-center" />
+            <img src='twitter (1).png' className="text-[.7rem] border-4 translate-x-[-20px] border-[#000] rounded-[50%] w-10 h-10 p-2 flex bg-white  items-center justify-center" />
+          </div>
+        </div>
+        <div className="relative w-full mb-5 gap-6 flex items-center justify-between">
+          <div className="left flex gap-3 w-1/2 items-center justify-between">
+            <div className="card text-[.6rem] text-[#ffffff90] flex flex-col items-start gap-2  justify-between">
+              <div className="item">companies</div>
+              <div className="item">branches</div>
+              <div className="item">investor relations</div>
+              <div className="item">privacy</div>
+            </div>
+            <div className="card text-[.6rem] text-[#ffffff90] flex flex-col items-start gap-2  justify-between">
+              <div className="item">companies</div>
+              <div className="item">branches</div>
+              <div className="item">investor relations</div>
+              <div className="item">privacy</div>
+            </div>
+          </div>
+          <div className="right relative w-[50%] mb-5 text-[#ffffff90]">
+            <div className="head">Live With Style and High Expectation</div>
+            <div className="addr">jijqojo N.V., 9i9i29 dokdpkpdkpd, Liverpool. Copyright 2025 trivago | All rights reserved.</div>
+          </div>
+        </div>
+      </footer>
     </div>
   </>
   )
